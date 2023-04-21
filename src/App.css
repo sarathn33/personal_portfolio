@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.project-box{
+    width:100%;
+    padding:6rem 1rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-container{
+    max-width:1140px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+    width:30vh;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.head{
+    font-size: xx-large;
 }
-
-.App-link {
-  color: #61dafb;
+.text{
+    font-size: larger;
+    text-align: center;
 }
+.lists{
+    text-align:start;
+    list-style-type: none;
+}
+.progress{
+   justify-items: center;
+}
+.form{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    padding:1rem ;
+    margin:auto;
+    max-width: 600px;
+}
+form input ,form textarea{
+    margin-bottom: 1rem;
+    padding:5px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255,255,255,0.6);
+    border-color: rgba(255,255,255,0.1);
+    color: black;
+}
+@media screen and (max-width:768px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .project-container{
+        justify-items: center;
+        align-items: center;
+        max-width: 90%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
 }
