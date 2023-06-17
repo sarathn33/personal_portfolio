@@ -10,7 +10,7 @@ const Mainimg = () => {
   return (
     <div className="main-img">
       <div className="mask">
-        <img className="intro-img" src={Introimg} alt="Intro"/>
+        <img className="intro-img" src={Introimg} loading="lazy" alt="Intro"/>
       </div>
       <div className="content">
         <h1 className="head" >Hello There, I am Sarath!</h1>

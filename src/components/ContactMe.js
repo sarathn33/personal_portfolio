@@ -25,7 +25,7 @@ const ContactMe = () => {
   return (
     <div className='main-img'>
       <div className='mask'>
-        <img className='project-img' src={ContactBg} alt="Contact Background"/>
+        <img className='project-img' src={ContactBg} loading='lazy' alt="Contact Background"/>
       </div>
       <div className='content'>
         <h1 className='head'>Contact Me</h1>

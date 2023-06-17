@@ -8,7 +8,7 @@ const Aboutme = () => {
   return (
     <div className="main-img">
    <div className="mask">
-    <img className="project-img" src={AboutBg} alt="About Background"/>
+    <img className="project-img" src={AboutBg} loading='lazy' alt="About Background"/>
    </div>
    <div className="content">
     <h1 className='head'>About Me</h1>

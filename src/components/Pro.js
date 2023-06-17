@@ -15,7 +15,7 @@ const Pro = () => {
 
         <div className="card">
         <Card sx={{ maxWidth: 345 }}>
-          <CardMedia sx={{ height: 140 }} image={NoImg} />
+          <CardMedia sx={{ height: 140 }} image={NoImg}  />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Still on Process

@@ -2,9 +2,9 @@ import  "./footer.css"
 import React from 'react'
 import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
@@ -12,9 +12,9 @@ const Footer = () => {
       <div className="footer-container">
         <div className="location">
         <HomeIcon fontSize="large" sx={{color:"white"}}/>
-        <p>13/103 Kerkandy Village, </p>
-        <p>Yellanalli Post, The Nilgiris.</p>
-        <p>TamilNadu, India -643221.</p>
+        <p>20/37 Hallatanai Village , </p>
+        <p>Manjacombai Post, The Nilgiris.</p>
+        <p>TamilNadu, India - 643 221.</p>
         </div>
 
         <div className="phone" >
@@ -25,9 +25,9 @@ const Footer = () => {
        
         <div className="social-media">
         
-            <EmailIcon fontSize="large" sx={{color:"white"}}/>
-            <GitHubIcon fontSize="large" sx={{color:"white"}}/>
-            <InstagramIcon fontSize="large" sx={{color:"white"}}/>
+            <a href="https://github.com/sarathn33" target="blank"><GitHubIcon fontSize="large" sx={{color:"white"}}/></a>
+            <a href="https://www.instagram.com/srh.29o6/" target="blank"><InstagramIcon fontSize="large" sx={{color:"white"}}/></a>
+            <a href="https://www.linkedin.com/in/sarath-n-021117227/" target="blank"><LinkedInIcon fontSize="large" sx={{color:"white"}}/></a>
         </div>
       </div>
     </div>
