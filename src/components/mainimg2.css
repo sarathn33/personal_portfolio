@@ -14,7 +14,7 @@
     height:100%;
     background-size: cover;
     background-position: center;
-    object-fit: cover;
+    object-fit:cover;
 }
 .mask::after{
     content:"";
@@ -31,4 +31,45 @@
     flex-direction: column;
     justify-content: center;
     align-items:center
+}
+.project-box{
+    display:flex;
+    flex-direction:column;
+}
+
+.project-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.card{
+    width:25vh;
+}
+@media screen and (max-width:912px){
+
+    .project-container{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .card{
+        width:20vh;
+    }
+}
+@media screen and (max-width:414px){
+
+    .project-container{
+      display:grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .card{
+        width:14vh;
+        
+    }
 }

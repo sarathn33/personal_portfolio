@@ -14,7 +14,7 @@ const Mainimg = () => {
       </div>
       <div className="content">
         <h1 className="head" >Hello There, I am Sarath!</h1>
-        <p className="text">I'm a Full Stack MERN Developer.</p>
+        <p className="text">I'm a Front-End Web Developer.</p>
         <div className="linkbutton">
             <Link to="/about"><Button className="btn" sx={{bgcolor:"purple"}} variant="contained">ABOUT</Button></Link>
             <Link to="/contact"> <Button className="btn" sx={{bgcolor:"purple}"}} variant="contained">CONTACT</Button></Link>
